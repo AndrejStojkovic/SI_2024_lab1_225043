@@ -1,0 +1,37 @@
+C:\Development\FINKI\SI\SI_2024_lab1_225043>git log
+
+commit 0f3b5fb281a5d2e86556293d85312d3bebaf9fea (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: Andrej Stojkovikj <andrejstojkovikj@yahoo.com>
+Date:   Mon Mar 25 20:06:47 2024 +0100
+
+    Call method makeBigStringFrom in main class
+
+commit 09f5cd56d8e4ff944f390e435ae1cfb8afcd30ff
+Author: Andrej Stojkovikj <andrejstojkovikj@yahoo.com>
+Date:   Mon Mar 25 20:04:44 2024 +0100
+
+    Fix wrong condition in makeBigStringFrom
+
+commit a7ff54e62a6b18e6b667c57377c9eaf992daca7e (origin/bug1, bug1)
+Author: Andrej Stojkovikj <andrejstojkovikj@yahoo.com>
+Date:   Mon Mar 25 20:05:51 2024 +0100
+
+    Call method filterOddLengthStrings in main class
+
+commit 2359ae249a70dd6d2a9c1ebec18fe15cb00cb431
+Author: Andrej Stojkovikj <andrejstojkovikj@yahoo.com>
+Date:   Mon Mar 25 20:04:11 2024 +0100
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 7fce499d10d85d2c5374f5a6b138cc9b2aab75fc
+Author: Andrej Stojkovikj <andrejstojkovikj@yahoo.com>
+Date:   Mon Mar 25 20:02:49 2024 +0100
+
+    Add starter code
+
+commit a578e8787271bc372e9f2afeddd95eaf2ea09c4a
+Author: Andrej Stojkovikj <andrejstojkovikj@yahoo.com>
+Date:   Mon Mar 25 20:02:31 2024 +0100
+
+    Initial commit

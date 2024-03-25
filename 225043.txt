@@ -1,0 +1,64 @@
+git init - Pravime inicijalizacija na lokalen repozitorium
+git remote add origin git@github.com:AndrejStojkovic/SI_2024_lab1_225043.git - Go povrzuvame lokalniot repozitorium so oddalechniot repozitorium
+nvim README.md - Sozdavame datoteka README.md kade shto gi pishuvame nashite podatoci
+git add README.md - Ja dodavame datoteka za sledniot commit
+git commit -m "Initial commit" - Pravime commit so poraka "Initial commit"
+git add . - Gi dodavame site datoteki koi se naogjaat vo lokalniot repozitorium
+git commit -m "Add starter code" - Pravime commit so poraka "Add starter code" kade shto gi dodadovme trite datoteki
+git push -u origin master - Sinhronizacija na lokalniot repozitorium so oddalechniot
+git branch bug1 - Sozdavame granka (branch) so ime "bug1"
+git branch bug2 - Sozdavame granka (branch) so ime "bug2"
+git checkout bug1 - Se prefrlame na grankata "bug1"
+
+nvim SILab1_1.java - Gi pravime baranite izmeni od tochka 8.A
+git add SILab1_1.java - Ja dodavame datotekata "SILab1_1" za sledniot commit
+git commit -m "Fix wrong condition in filterOddLengthStrings" - Pravime commit
+git checkout bug2 - Se prefrlame na grankata "bug2"
+
+nvim SILab1_2.java - Gi pravime baranite izmeni od tochka 8.B
+git add SILab1_2.java - Ja dodavame datotekata "SILab1_2" za sledniot commit
+git commit -m "Fix wrong condition in makeBigStringFrom" - Pravime commit
+
+git checkout bug1 - Se prefrlame na grankata "bug1"
+nvim SILab1Main.java - Gi pravime baranite izmeni od tochka 15
+git add SILab1Main.java - Ja dodavame datotekata "SILab1Main" za sledniot commit
+git commit -m "Call method filterOddLengthStrings in main class" - Pravime commit
+
+git checkout bug2 - Se prefrlame na grankata "bug2"
+nvim SILab1Main.java - Gi pravime baranite izmeni od tochka 17
+git add SILab1Main.java - Ja dodavame datotekata "SILab1Main" za sledniot commit 
+git commit -m "Call method makeBigStringFrom in main class" - Pravime commit
+
+- Sinhronizacija na site granki
+git push -u origin master
+git push -u origin bug1
+git push -u origin bug2
+
+git checkout master - Se prefrlame na grankata "master"
+git merge bug1 - Ja spojuvame grankata "bug1" vo grankata "master"
+
+- Sinhronizacija na site granki
+git push -u origin master
+git push -u origin bug1
+git push -u origin bug2
+
+git checkout bug2 - Se prefrlame na grankata "bug2"
+git rebase master - Pravime rebase od grankata "bug2" kon grankata "master"
+nvim SILab1Main.java - Pravime mali izmeni kon datotekata "SILab1Main" za da go trgneme delot so "HEAD" i nepotrebnite linii
+git add SILab1Main.java - Ja dodavame datotekata "SILab1Main" za sledniot commit
+git rebase --continue - Prodolzhuvame so git rebase
+
+git checkout master - Se prefrlame na grankata "master"
+git merge bug2 - Ja spojuvame grankata "bug2" vo grankata "master"
+
+- Sinhronizacija na site granki
+git push -u origin master
+git push -u origin bug1
+git push -u -f origin bug2
+
+git logs - Dava prikaz za site dosegashni git logovi
+nvim logs.txt - Sozdavame datoteka so ime "logs.txt" kade shto gi vmetnuvame dosegashnit git logovi
+nvim 225043.txt - Sozdavame datoteka so nashiot indeks i ja vmetnuvame dokumentacijata za site komandi potrebni za ovaa laboratoriska vezhba
+git add . - Gi dodavame site datoteki za sledniot commit
+git commit -m "Final commit" - Go pravime posledniot commit
+git push -u origin master - Sinhronizacija na "master" grankata
